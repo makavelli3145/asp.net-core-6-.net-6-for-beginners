@@ -25,7 +25,7 @@ builder.Services.Configure<IdentityOptions>(options =>
 
         options.User.RequireUniqueEmail = true;
 });
-
+//
 builder.Services.Configure<CookieAuthenticationOptions>(IdentityConstants.ApplicationScheme, options =>
 {
         options.LoginPath = "/Login2";
